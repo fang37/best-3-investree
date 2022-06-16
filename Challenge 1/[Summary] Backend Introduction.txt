@@ -1,0 +1,43 @@
+Backend Introduction
+Rio Swarawan
+
+1. Java
+- Bahasa pemrograman Java merupakan salah satu bahasa pemrograman yang populer dan memiliki komunitas yang sangat besar. Java sendiri merupakan bahasa pemrograman open-source sehingga memiliki banyak versi JDK yang dikembangkan oleh berbagai perusahaan seperti IBM dan Netbeans
+- Java Runtime Environment (JRE) merupakan paket aplikasi untuk menjalankan/mengeksekusi sebuah program Java.
+- Java Development Kit (JDK) merupakan paket aplikasi untuk mengembangkan aplikasi Java, didalamnya sudah termasuk dengan JRE dan JVM.
+
+2. IDE 
+- IDE atau Integrated Development Environment merupakan program komputer yang menyediakan fasilitas dan fitur untuk memudahkan proses men-develop sebuah program. Untuk bahasa pemrograman Java beberapa IDE yang populer digunakan adalah Eclipse, Intellij, dan Netbeans.
+
+3. Kotlin
+- Kotlin merupakan bahasa pemrograman turunan dari Java, Kotlin dibuat untuk mempermudah programmer Java karena memiliki sintaks yang lebih sederhana.
+- Sebuah kelas Kotlin dapat diimplementasikan didalam sebuah source code Java yang menjadikannya . Dan kotlin juga bisa menggunakan Java didalamnya sehingga mudah digunakan bersamaan dengan Java.
+- Kotlin juga sudah memiliki fitur null safety yang dapat mencegah error saat aplikasi berjalan.
+
+4. Storage
+Berikut beberapa teknologi yang berkaitan dengan storage yang digunakan oleh Investree
+a. MySQL
+b. PostgreSQL
+c. Redis
+- Redis digunakan untuk melakukan caching databse dimana redis akan menggunakan In-memory (RAM) untuk menyimpan data yang memiliki kecepatan lebih tinggi sekaligus dapat mengurangi query ke database khususnya untuk data yang sering diakses dan jarang berubah.
+d. Elastic Search
+- Elastic search digunakan untuk melakukan pencarian data dengan lebih cepat dengan melakukan operasi query ke database secara lebih efisien.
+e. RabbitMQ
+- RabbitMQ berfungsi untuk menampung request (Queueing Message) agar saat terjadi banyak request yang masuk setiap request akan dimasukan ke antrian untuk mencegah ada request yang tidak dilayani.
+
+5. CI/CD
+- Continues Integration merupakan konsep untuk mengautomatisasi proses development yaitu built, test, dan merge ke sebuah shared repository.
+- Continues Deployment merupakan proses release dari repository ke production secara otomatis.
+- CD dapat menyelesaikan masalah deployment sehingga kita tidak perlu menaruh kode secara manual ke server atau ke tempat VPS berjalan saat kita menggunakan webservices.
+- Jenkins merupakan sebuah automasi server open-source dan salah satu tools untuk mengimplementasikan CI.
+
+6. Version Control
+- Version Control adalah sebuah sistem untuk mencatat perubahan yang terjadi pada saat kita menulis kode.
+- Version control yang umum digunakan yaitu GIT dan Subversion (SVN).
+- GIT merupakan version control yang menggunakan branching sehingga setiap developer dapat memiliki keseluruhan source code yang sama dan bekerja pada branch yang berbeda.
+- SVN merupakan version control yang tidak memiliki branching sehingga setiap developer harus mengerjakan development secara runut dan teratur, SVN memiliki kelebihan yaitu cepat dalam melakukan deveelopment lebih cepat karena tidak ada confilct yang muncul karena branch.
+
+7. Code Quality Analysis
+- Sonarcloud merupakan layanan code analysis yang dapat mendeteksi kualitas dan code smell dari source code yang kita buat.
+- Dengan menggunakan sonarcloud dapat membantu untuk memastikan bahwa kode yang ditulis lebih mudah untuk dibaca.
+
